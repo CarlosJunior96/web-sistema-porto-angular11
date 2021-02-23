@@ -1,53 +1,88 @@
-<div class="container" style="border: 1px solid black; padding: 10px">
+<div class="container">
 
-  <div class="col-md-8 offset-md-2">
+  <div class="mb-4 pt-2">
+    <h2 class="text-center">Cadastrar Navio</h2>
+  </div>
+
+  <div class="">
     <form>
-      <div class="form-group row">
-        <label class="col-sm-4 col-form-label">Nome do Navio: </label>
-        <div class="col-sm-8">
-          <input type="text" class="form-control" placeholder="Informe nome do navio." formControlName="nomeNavio">
+      <div class="row">
+        <div class="form-group col-md-6 row">
+          <label class="col-sm-4 col-form-label">Nome do Navio: </label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" placeholder="Informe nome do navio." formControlName="nomeNavio">
+          </div>
+        </div>
+        <div class="form-group col-md-6 row">
+          <label class="col-sm-4 col-form-label">Classe DP: </label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" placeholder="Informe a Classe DP." formControlName="dataInformar">
+          </div>
+        </div>
+        <div class="form-group col-md-6 row">
+          <label class="col-sm-4 col-form-label">Propulsão: </label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" placeholder="Informe a propulsão." formControlName="propulsaoNavio">
+          </div>
+        </div>
+        <div class="form-group col-md-6 row">
+          <label class="col-sm-4 col-form-label">Comprimento: </label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" placeholder="Informe o comprimento do navio." formControlName="comprimentoNavio">
+          </div>
+        </div>
+        <div class="form-group col-md-6 row">
+          <label class="col-sm-4 col-form-label">Boca: </label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" placeholder="Informe boca do navio." formControlName="bocaNavio">
+          </div>
+        </div>
+        <div class="form-group col-md-6 row">
+          <label class="col-sm-4 col-form-label">Calado: </label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" placeholder="Informe calado do navio." formControlName="caladoNavio">
+          </div>
+        </div>
+        <div class="form-group col-md-6 row">
+          <label class="col-sm-4 col-form-label">Área Livre Convés:</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" placeholder="Informe Área Livre do Convés." formControlName="areaLivreConves">
+          </div>
+        </div>
+        <div class="form-group col-md-6 row">
+          <label class="col-sm-4 col-form-label">Bollard Pull:</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" placeholder="Informe bollard pull." formControlName="bollardPull">
+          </div>
+        </div>
+        <div class="form-group col-md-6 row">
+          <label class="col-sm-4 col-form-label">IMO:</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" placeholder="Informe IMO." formControlName="imoNavio">
+          </div>
+        </div>
+
+        <div class="form-group col-md-6 row">
+          <label class="col-sm-4 col-form-label">Call Sign:</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" placeholder="Informe call sign." formControlName="callSign">
+          </div>
+        </div>
+        <div class="form-group col-md-6 row">
+          <label class="col-sm-4 col-form-label">Ano de Construção:</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" placeholder="Informe ano de construção do navio." formControlName="anoConstrucao">
+          </div>
+        </div>
+        <div class="form-group col-md-6 row">
+          <label class="col-sm-4 col-form-label">Próxima Docagem:</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" placeholder="Informe próxima docagem do navio." formControlName="docagemNavio">
+          </div>
         </div>
       </div>
-      <div class="form-group row">
-        <label class="col-sm-4 col-form-label">Classe DP: </label>
-        <div class="col-sm-8">
-          <input type="text" class="form-control" placeholder="Informe Classe DP" formControlName="dataInformar">
-        </div>
-      </div>
-      <div class="form-group row">
-        <label class="col-sm-4 col-form-label">Data: </label>
-        <div class="col-sm-8">
-          <input type="text" class="form-control" placeholder="Selecione a Data" formControlName="dataInformar">
-        </div>
-      </div>
-      <div class="form-group row">
-        <label class="col-sm-4 col-form-label">Data: </label>
-        <div class="col-sm-8">
-          <input type="text" class="form-control" placeholder="Selecione a Data" formControlName="dataInformar">
-        </div>
-      </div>
-      <div class="form-group row">
-        <label class="col-sm-4 col-form-label">Consumo de Água: </label>
-        <div class="col-sm-8">
-          <input type="text" class="form-control" placeholder="Informe o consumo de água." formControlName="consumoAgua">
-        </div>
-      </div>
-      <div class="form-group row">
-        <label class="col-sm-4 col-form-label">Água Recebida: </label>
-        <div class="col-sm-8">
-          <input type="text" class="form-control" placeholder="Quantidade de água recebida." formControlName="qtdAguaRecebida">
-        </div>
-      </div>
-      <div class="form-group row">
-        <label class="col-sm-4 col-form-label">Água Fornecida:</label>
-        <div class="col-sm-8">
-          <input type="text" class="form-control" placeholder="Quantidade de água fornecida." formControlName="qtdAguaFornecida">
-        </div>
-      </div>
-      <button type="submit" class="btn btn-info offset-md-5">
-        Salvar
-      </button>
     </form>
   </div>
+
 </div>
 
